@@ -5,7 +5,8 @@ NGO_Platform
 A global platform (Java,HTML5,Mongo,REST,JSON,Spring) for Non-governmental organization(s) working for children - this enables the following features using mobile app (Web/native) - 
 
 o	Help user finding the NGO(s) using location aware service (or searching the right NGO)  
-o	Provide ability to each NGO to publish and communicate their area of work to users via News (Audio/Video/Pictures), Projects details, Event, Contact etc.
+o	Provide ability to each NGO to publish and communicate their area of work to users via News (Audio/Video/Pictures), 
+   Projects details, Event, Contact etc.
 o	Allow NGO to run child sponsorship program and track child's progress
 o	Encourage user to rate, like, share, comment to get feedback
 
