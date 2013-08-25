@@ -1,0 +1,72 @@
+NGO_Collection
+{
+    "_id": int,
+    "org_name": string,
+    "about_us": string,
+    "logo" : string
+    "contact_us": {
+        "street_address": string,
+        "city": string,
+        "state": string,
+	"country": string,
+	"zip":string,
+	"email:string,
+	"phone":[ string, string ]
+    },
+    "project_details": [
+	 {"proj_name": string,"description": string, "current" : boolean},
+	 {"proj_name": string,"description": string, "current" : boolean}
+     ],	
+     "event_details": [
+	 {"event_name": string,"text": string},
+	 {"event_name": string,"text": string}
+     ],	
+    "reviews": [
+       { "user_name": string, "rating":int, "text": string },
+       { "user_name": string, "rating":int, "text": string }
+    ],
+}
+
+
+NGO_Collection_news
+{
+
+"news_img_video" : [
+{"news" : string, "image" : string , "video" :GridFS},
+{"news" : string, "image" : string , "video" :GridFS}   
+],
+ "NGO_Collection" : int
+}
+
+NGO_Child_Collection
+{
+
+    "_id": int,
+    "child_name": string,
+    "Gender": string,
+    "age" : int,
+    "text": string,
+    "photo" : string,	
+    "NGO_Collection" : int,
+    "sponsor_type" : string,
+    "amount" : string,
+    "sponsor_dt" : date
+    "progress" : string
+    		
+}	
+
+User_Collection
+{
+    "_id": int,
+    "Name": string,
+    "contact": {
+        "street_address": string,
+        "city": string,
+        "state": string,
+	"country": string,
+	"zip":string,
+	"email:string,
+	"phone":[ string, string ]
+    },
+    "NGO_Child_Collection ": [int,int], 
+}
