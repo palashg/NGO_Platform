@@ -13,7 +13,7 @@ o	Encourage user to rate, like, share, comment to get feedback
 
 Codebase - Platform for NGO
 
-This repository contains prototype, PoC (Proof Of Concept), experimental code for creating an universal platform for NGO
+This repository contains concept,design, code, test script for creating an universal platform for NGO
 (non governmental organizations) who works for children. 
 
 This codebase mostly does focus on the following use cases/functional aspects - 
